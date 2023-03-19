@@ -4,7 +4,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int number = Prompt("Введите число: ");
+int number = Prompt("Введите число не меньше трехзначного: ");
 int count = number.ToString().Length;
 Console.Write($"В числе {number} третья цифра {MakeArray(number, count)}");
 int Prompt (string message)
